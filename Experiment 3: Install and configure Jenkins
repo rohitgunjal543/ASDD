@@ -1,0 +1,6 @@
+1. Install Java (JDK) and Jenkins on the system.
+2. Start Jenkins and access it through the browser using the configured port.
+3. Unlock Jenkins using the initial administrator password and complete the setup.
+4. Install the required Jenkins plugins.
+5. Create a Freestyle project and configure a sample build.
+6. Execute the build and verify the console output for the "Hello World" program.
