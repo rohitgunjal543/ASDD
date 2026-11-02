@@ -1,0 +1,19 @@
+Theory
+Kubernetes is an open-source container orchestration platform used to automate the deployment, scaling, and management of containerized applications.
+It manages containers across a cluster of machines and ensures that applications remain available and operate efficiently.
+The main components of Kubernetes are:
+- Cluster: A group of machines used to run containerized applications.
+- Node: A machine that runs application workloads.
+- Pod: The smallest deployable unit in Kubernetes, containing one or more containers.
+- Deployment: Manages application replicas and updates.
+- Service: Provides a stable network endpoint for accessing application pods.
+Kubernetes provides features such as automatic scaling, load balancing, self-healing, and rolling updates. It simplifies the management of large-scale containerized applications.
+
+Procedure
+
+1. Install and configure Minikube and kubectl.
+2. Start the Kubernetes cluster using `minikube start`.
+3. Create a deployment using a container image.
+4. Expose the deployment using a NodePort service.
+5. Verify the running pods and services using kubectl commands.
+
