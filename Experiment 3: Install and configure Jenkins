@@ -1,3 +1,8 @@
+Thoery
+Jenkins is an open-source automation server used for continuous integration and continuous delivery (CI/CD). It automates software building, testing, and deployment. 
+Jenkins supports plugins to integrate with tools such as GitHub, Docker, and Kubernetes.
+
+
 1. Install Java (JDK) and Jenkins on the system.
 2. Start Jenkins and access it through the browser using the configured port.
 3. Unlock Jenkins using the initial administrator password and complete the setup.
