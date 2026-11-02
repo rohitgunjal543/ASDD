@@ -1,0 +1,30 @@
+git version
+
+git config --global user.name "ROHIT"
+
+git config --global user.email "rohit@gmail.com"
+
+git config --list
+
+git clone https://github.com/rohitgunjal543/SMLDS.git
+
+cd SMLDS
+
+pwd
+
+ls
+
+git status
+
+notepad README.md
+
+git add README.md
+
+git status
+
+git commit -m "FIRST CHANGE"
+
+git branch -m main
+
+git push -u origin main
+
