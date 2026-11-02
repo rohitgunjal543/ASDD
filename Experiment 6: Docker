@@ -1,3 +1,26 @@
+docker-version
+
+docker compose version 
+
+git -version 
+
+docker pull docker/welcome-to-docker
+
+docker run -detach -name welcome -publish 8086:80 docker/welcome-to-docker   ## open localhost:8086
+
+docker rm -force welcome
+
+git clone https://github.com/docker/getting-started-todo-app
+
+cd getting-started-todo-app
+
+docker compose up --build-detach  ## open localhost
+
+docker compose ps 
+
+
+
+
 Docker is an open-source containerization platform used to package applications and their dependencies into lightweight, portable containers.
 A container provides an isolated environment in which an application can execute consistently across different systems. Unlike virtual machines, containers share the host operating system kernel, making them lightweight and efficient.
 
