@@ -1,0 +1,21 @@
+Theory
+GitHub is a cloud-based version control platform that allows developers to store, manage, and collaborate on source code. Jenkins can be integrated with GitHub to automate the software development process.
+Continuous Integration (CI) is the practice of frequently merging code changes into a shared repository. Each change is automatically built and tested to identify errors early.
+Continuous Delivery or Deployment (CD) automates the process of preparing or releasing software after successful testing.
+
+The integration process involves the following components:
+- GitHub Repository: Stores source code and tracks changes.
+- Webhook: Notifies Jenkins when code changes occur.
+- Jenkins Pipeline: Automates building and testing.
+- Jenkinsfile: Defines the pipeline stages as code.
+This integration improves collaboration, reduces integration errors, and ensures faster software delivery.
+
+
+Procedure:
+
+Create a GitHub repository and upload the software project.
+Configure GitHub credentials and the repository URL in Jenkins.
+Create a Jenkins Pipeline job and configure the source code repository.
+Create a Jenkinsfile containing build and testing stages.
+Configure a GitHub webhook to trigger Jenkins automatically on code changes.
+Execute the pipeline and verify the build and test results.
