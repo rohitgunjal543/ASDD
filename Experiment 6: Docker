@@ -1,0 +1,20 @@
+Docker is an open-source containerization platform used to package applications and their dependencies into lightweight, portable containers.
+A container provides an isolated environment in which an application can execute consistently across different systems. Unlike virtual machines, containers share the host operating system kernel, making them lightweight and efficient.
+
+The main components of Docker are:
+- Docker Image: A read-only template used to create containers.
+- Docker Container: A running instance of a Docker image.
+- Dockerfile: A text file containing instructions to build a Docker image.
+- Docker Engine: The software responsible for building and running containers.
+- Docker Hub: A registry used to store and share container images.
+Docker simplifies application deployment, improves portability, and ensures consistency between development and production environments.
+
+
+Procedure:
+
+Install Docker Desktop and start the Docker service.
+Verify the installation using docker --version.
+Create a Dockerfile for a sample application.
+Build a Docker image using docker build.
+Run the container using docker run.
+Verify the running container using docker ps.
