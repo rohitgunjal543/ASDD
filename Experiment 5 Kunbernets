@@ -1,3 +1,25 @@
+minikube delete
+
+minikube start
+
+minikube status
+
+kubectl get po -A
+
+minikube kubectl -- get po -A
+
+minikube dashboard               ## after this command use clt+c in powershell
+
+kubectl create deployment rohit-minikube --image=kicbase/echo-server:1.0
+
+kubectl expose deployment rohit-minikube --type=NodePort --port=8080
+
+kubectl get service rohit-minikube
+
+minikube service rohit-minikube
+
+
+
 Theory
 Kubernetes is an open-source container orchestration platform used to automate the deployment, scaling, and management of containerized applications.
 It manages containers across a cluster of machines and ensures that applications remain available and operate efficiently.
