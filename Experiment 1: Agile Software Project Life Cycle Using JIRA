@@ -1,0 +1,22 @@
+Theory:
+
+Agile is an iterative and incremental software development methodology in which a project is divided into small tasks called user stories. It allows teams to develop, test, and deliver software continuously while adapting to changing requirements.
+JIRA is a project management tool used to plan, track, and manage Agile software development activities. It supports Scrum and Kanban methodologies.
+
+The main features of JIRA are:
+- Board: Displays tasks according to their status.
+- List: Shows project tasks in a structured format.
+- Timeline: Provides a visual representation of project schedules.
+- Collaboration: Allows team members to share tasks, comments, and updates.
+JIRA helps improve team collaboration, task tracking, and project management throughout the Agile software development life cycle.
+
+Procedure
+
+1. Create a project in JIRA using the Scrum or Kanban template.
+2. Create user stories, tasks, and a product backlog.
+3. Plan a sprint and assign tasks to team members.
+4. Create a GitHub repository and link it with JIRA.
+5. Develop the application and push code to GitHub.
+6. Configure a CI/CD pipeline using Jenkins or GitHub Actions for automated building and testing.
+7. Deploy the application after successful testing.
+8. Track task progress and monitor sprint reports in JIRA.
