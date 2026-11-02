@@ -28,3 +28,16 @@ git branch -m main
 
 git push -u origin main
 
+
+Procedure:
+
+1. Check the installed Git version and configure the global username and email.
+2. Verify the Git configuration using git config --list.
+3. Clone the GitHub repository and navigate to the project directory.
+4. Check the current directory, list files, and verify the repository status.
+5. Open README.md in Notepad and make the required changes.
+6. Stage the modified file using git add README.md.
+7. Verify the staged changes using git status.
+8. Commit the changes with the message "FIRST CHANGE".
+9. Rename the current branch to main and push the changes to GitHub.
+10. Set the upstream branch using git push -u origin main.
