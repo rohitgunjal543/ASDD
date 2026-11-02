@@ -1,0 +1,21 @@
+AWS Lambda is a serverless computing service provided by Amazon Web Services. It allows developers to execute code without provisioning or managing servers
+A Lambda function runs in response to events such as HTTP requests, file uploads, or database changes. AWS automatically manages the infrastructure, scaling, and execution environment.
+
+The main components of AWS Lambda are:
+- Lambda Function: Contains the code that performs a specific task.
+- Runtime: Provides the environment required to execute the function.
+- Trigger: An event that initiates function execution.
+- Event: The input data passed to the function.
+- Execution Role: Defines the AWS permissions available to the function.
+- CloudWatch: Used to monitor function execution and collect logs.
+AWS Lambda supports multiple programming languages and follows a pay-per-use pricing model. It is useful for building event-driven applications, APIs, and automated cloud workflows.
+
+
+Procedure
+
+1. Sign in to the AWS Management Console.
+2. Open AWS Lambda and create a new function.
+3. Select the required runtime and configure the function.
+4. Write a sample function and deploy it.
+5. Create a test event and execute the function.
+6. Verify the execution result in the console and check the logs in Amazon CloudWatch.
