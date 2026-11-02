@@ -1,0 +1,10 @@
+Thoery 
+GitHub is a version control platform used to store and manage source code. Jenkins integrates with GitHub to automatically build and 
+test software whenever code changes are pushed to the repository. This improves software quality and reduces manual effort.
+
+1. Create a GitHub repository and upload the software project.
+2. Configure GitHub credentials and the repository URL in Jenkins.
+3. Create a Jenkins Pipeline job and configure the source code repository.
+4. Create a `Jenkinsfile` containing build and testing stages.
+5. Configure a GitHub webhook to trigger Jenkins automatically on code changes.
+6. Execute the pipeline and verify the build and test results.
