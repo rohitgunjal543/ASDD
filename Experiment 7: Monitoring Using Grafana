@@ -1,0 +1,20 @@
+Grafana is an open-source monitoring and data visualization platform used to analyze system performance and display metrics through interactive dashboards.
+It connects to various data sources, such as Prometheus, InfluxDB, and MySQL, to retrieve and visualize data.
+
+The main features of Grafana are:
+- Dashboards: Display monitoring information in a single interface.
+- Panels: Present data using graphs, charts, tables, and gauges.
+- Data Sources: Provide access to metrics and other data.
+- Alerts: Notify users when specified conditions are met.
+- Variables: Allow users to dynamically filter and explore dashboard data.
+Grafana helps monitor application performance, identify system failures, and support effective decision-making through real-time visualization.
+
+Procedure
+
+Experiment 7: Monitoring using Grafana
+
+1. Install and start Grafana.
+2. Configure a suitable data source.
+3. Create a dashboard with graphs, charts, and tables.
+4. Configure dashboard panels to display application metrics.
+5. Save the dashboard and verify the displayed data.
